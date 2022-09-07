@@ -1,0 +1,54 @@
+#captcha_image img {
+	border: 1px solid #ddd;
+}
+.status_green {
+	color: #51c2d5;
+}
+.status_red {
+	color: #ec4646;
+}
+fieldset label {
+	display: block;
+	margin: 5px 0px;
+}
+fieldset input#captcha,
+fieldset input#nama,
+fieldset input#gender{
+	width: 220px;
+	height: 33px;
+	border: 1px solid #ddd;
+	margin: 5px 0px;
+	padding: 0px 5px;
+}
+#btn_check,
+#btn_ulangi,
+#btn_kirim {
+	display: inline;
+	margin-right: 10px;
+	background-color: #11698e;
+	color: white;
+	border-radius:3px;
+	opacity: 0.8;
+	padding: 10px 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+#btn_check:hover,
+#btn_ulangi:hover,
+#btn_kirim:hover{
+	opacity: 1;
+}
+
+#btn_check:disabled,
+#btn_ulangi:disabled,
+#btn_kirim:disabled{
+	background-color: #bbb;
+}
+#img_result{
+	display: none;
+	border: 1px solid #bbb;
+	vertical-align: bottom;
+	margin-right: 5px;
+	padding: 2px;
+}
